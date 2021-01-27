@@ -1,6 +1,6 @@
 # Tutorial de efectos 
 
-En este tutorial se desarrolló una pantalla con tres tarjetas de presentación, las cuales al pasar el cursor sobre ellas, la información aparece de abajo hacia arriba y tienen un movimiento que sigue al cursor. Este efecto se logra gracias a una herramiena llamada Vanilla tilt.js (https://micku7zu.github.io/vanilla-tilt.js/). Ahí mismo viene la explicación de cómo usarla.
+En este tutorial se desarrolló una pantalla con tres tarjetas de presentación, las cuales al pasar el cursor sobre ellas, la información aparece de abajo hacia arriba y tienen un movimiento que sigue al cursor. Este efecto se logra gracias a una herramienta llamada Vanilla tilt.js (https://micku7zu.github.io/vanilla-tilt.js/). Ahí mismo viene la explicación de cómo usarla.
 
 
 ## Construido con 🛠️
