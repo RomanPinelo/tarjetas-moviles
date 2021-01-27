@@ -25,4 +25,4 @@ Solo al pasar el cursor, la información aparece con un movimiento de abajo haci
 
 En el siguiente link puedes ver la página funcionando: 
 
-https://romanpinelo.github.io
+https://romanpinelo.github.io/tarjetas-moviles/
