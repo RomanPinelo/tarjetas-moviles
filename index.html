@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjetas móviles</title>
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="content">
+          <img src="https://i.imgur.com/YrN2Ng5.jpg" alt="Mario">
+          <h2>Mario</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <img src="https://i.imgur.com/AF7pCun.jpeg" alt="Karla">
+          <h2>Karla</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <img class="photo-sofia" src="https://i.imgur.com/lCuYCZx.jpeg" alt="Sofia">
+          <h2>Sofia</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- at the end of the body -->
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    
+    <!-- Para poder modificar los valores, puedo hacerlo directamente en el archivo .js, o bien, combinar la parte de arriba de la sección Easy way y de la parte de abajo de la sección JS Way y sustituyendo querySelector por querySelectorAll y poniendo el nombre de la clase. En este caso .card -->
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 1
+      });
+    </script>
+    
+  </body>
+
+</html>
